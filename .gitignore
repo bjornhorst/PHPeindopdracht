@@ -1,0 +1,57 @@
+api/vendor
+api/.env
+api/node_modules
+api/public/hot
+api/public/storage
+api/storage/*.key
+api/.env.backup
+api/.phpunit.result.cache
+api/.phpunit.result.cache
+api/docker-compose.override.yml
+api/Homestead.json
+api/Homestead.yaml
+api/npm-debug.log
+api/yarn-error.log
+
+artists_songs/vendor
+artists_songs/.env
+artists_songs/node_modules
+artists_songs/public/hot
+artists_songs/public/storage
+artists_songs/storage/*.key
+artists_songs/.env.backup
+artists_songs/.phpunit.result.cache
+artists_songs/.phpunit.result.cache
+artists_songs/docker-compose.override.yml
+artists_songs/Homestead.json
+artists_songs/Homestead.yaml
+artists_songs/npm-debug.log
+artists_songs/yarn-error.log
+
+
+.idea
+
+
+# Created by https://www.gitignore.io/api/laravel
+
+### Laravel ###
+vendor/
+node_modules/
+npm-debug.log
+
+# Laravel 4 specific
+bootstrap/compiled.php
+app/storage/
+
+# Laravel 5 & Lumen specific
+public/storage
+public/hot
+storage/*.key
+.env.*.php
+.env.php
+.env
+Homestead.yaml
+Homestead.json
+
+# Rocketeer PHP task runner and deployment package. https://github.com/rocketeers/rocketeer
+.rocketeer/
